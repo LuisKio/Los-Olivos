@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+
+/****  Custom properties  *****/
+:root{
+	--main-font: 'Open Sans';
+	--alertnate-font: sans-serif; /*IMPORT*/
+	--font-size: 24px;
+	--line-height: 1.6;
+	--max-width: 1200px;
+	--header-height:5rem;
+	--second-color:#ff0157;
+}
+
+
+/**** 	Reset Styles 	*****/
+
+html{
+	font-family: var(--main-font), var(--alertnate-font);
+	font-size: var(--font-size);
+	line-height: var(--line-height);
+}
+
+body{
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background-color: inherit;
+	overflow-x: hidden;
+}
+
+header{
+	padding:0;
+}
+
+
+a{
+	text-decoration: none;
+	transition: all .3s ease-out;
+	color: #fff;
+	display: inline-block;
+}
+
+a:hover{
+	transition: all .3s ease-out;
+	text-decoration: none;
+}
+
+
+
+span{
+	color: #333333;
+}
+
+ul li{
+	list-style: none;
+}
+
+
+h1{
+	font-size: 3rem;
+}
+
+h2{
+	font-size: 2.5rem;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
